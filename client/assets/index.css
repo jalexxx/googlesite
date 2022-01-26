@@ -1,0 +1,94 @@
+body {
+  background-color: pink;
+}
+
+.home_image {
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+  background-color: rgb(185, 35, 60);
+}
+form {
+  position:absolute; 
+  left:80%; 
+  top:80px;
+}
+
+#banner {
+  /* background-image: url("https://i.pinimg.com/originals/65/e7/84/65e7847ac0d32b11a73b2b3907edbee2.gif"); */
+  background : transparent url("https://i.pinimg.com/originals/65/e7/84/65e7847ac0d32b11a73b2b3907edbee2.gif") no-repeat 0px -200px scroll;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 150px;
+  box-shadow: 10px 5px rgb(128, 62, 62);
+
+}
+
+main {
+  width: 100vw;
+   position: relative;
+  margin-left: -50vw;
+  height: 100px;
+  margin-top: 100px;
+  left: 50%;
+}
+#grid {
+  display: grid;
+  height: 400px;
+  width: 90%;
+
+}
+
+#row1 {
+  background-color: lime;
+}
+
+#row2 {
+  background-color: red;
+ 
+}
+
+#row3 {
+  background-color: blue;
+  
+}
+  
+#row4 {
+  background-color: lime;
+}
+
+#row5 {
+  background-color: red;
+ 
+}
+
+#row6 {
+  background-color: blue;
+  
+}
+  
+#row7 {
+  background-color: lime;
+}
+
+#row8 {
+  background-color: red;
+ 
+}
+
+#row9 {
+  background-color: blue;
+  
+}
+  
+#row10 {
+  background-color: lime;
+}
+
+.inside-row{
+ margin-left: 170px;
+}
+
+h3{
+  font-size: 13px;
+}
