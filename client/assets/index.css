@@ -1,0 +1,84 @@
+body {
+    background-color: pink;
+}
+form {
+    position:absolute; 
+    left:80%; 
+    top:80px;
+}
+
+#banner {
+    background-image: url("https://c.tenor.com/l6Vk_g4IFXYAAAAd/armin-arlert-attack-on-titans.gif");
+    height: 100px;
+    box-shadow: 10px 5px black;
+
+}
+
+main {
+    width: 100vw;
+     position: relative;
+    margin-left: -50vw;
+    height: 100px;
+    margin-top: 100px;
+    left: 50%;
+}
+#grid {
+    display: grid;
+    height: 400px;
+    width: 90%;
+
+  }
+  
+  #row1 {
+    background-color: lime;
+  }
+  
+  #row2 {
+    background-color: red;
+   
+  }
+  
+  #row3 {
+    background-color: blue;
+    
+  }
+    
+  #row4 {
+    background-color: lime;
+  }
+  
+  #row5 {
+    background-color: red;
+   
+  }
+  
+  #row6 {
+    background-color: blue;
+    
+  }
+    
+  #row7 {
+    background-color: lime;
+  }
+  
+  #row8 {
+    background-color: red;
+   
+  }
+  
+  #row9 {
+    background-color: blue;
+    
+  }
+    
+  #row10 {
+    background-color: lime;
+  }
+  
+.inside-row{
+   margin-left: 170px;
+}
+
+h3{
+    font-size: 13px;
+ }
