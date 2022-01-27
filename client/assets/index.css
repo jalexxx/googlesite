@@ -1,26 +1,59 @@
 body {
-  background-color: pink;
+  background-color: rgba(105, 13, 13, 0.726);
 }
 
-.home_image {
+#home_image {
   background-position: center;
   background-repeat: no-repeat;
-  height: 600px;
-  background-color: rgb(185, 35, 60);
-}
-form {
   position:absolute; 
-  left:80%; 
-  top:80px;
+  top:120px;
+  left:30%; 
+  box-shadow: 20px  5px 10px rgba(0, 0, 0, 0.75);
 }
+#logo{
+  position:absolute; 
+  left:38%; 
+  top:13%;
+  box-shadow: -5px -10px 5px 5px rgba(0, 0, 0, 0.75);
+}
+#homeform{
+  position:absolute; 
+  left: 470px; 
+  top:220px;
+}
+#first-search{
+  border-radius: 200px;
+  width: 500px;
+  height: 30px;
+  text-indent: 5px;
+}
+
+#btn1{
+  border-radius: 200px;
+}
+
+#randombtn1{
+  border-radius: 200px;
+}
+
+
+
+
+
 
 #banner {
   /* background-image: url("https://i.pinimg.com/originals/65/e7/84/65e7847ac0d32b11a73b2b3907edbee2.gif"); */
   background : transparent url("https://i.pinimg.com/originals/65/e7/84/65e7847ac0d32b11a73b2b3907edbee2.gif") no-repeat 0px -200px scroll;
   background-repeat: no-repeat;
   background-size:cover;
-  height: 150px;
-  box-shadow: 10px 5px rgb(128, 62, 62);
+  height: 400px;
+  position: fixed;
+  left: 10%;
+  top: 0px;
+  width:80%;
+
+  /* box-shadow: 10px 5px rgb(128, 62, 62); */
+
 
 }
 
@@ -40,55 +73,61 @@ main {
 }
 
 #row1 {
-  background-color: lime;
+  background-color: rgb(221, 29, 71);
 }
 
 #row2 {
-  background-color: red;
+  background-color: rgb(187, 24, 59);
  
 }
 
 #row3 {
-  background-color: blue;
+  background-color: rgb(221, 29, 71);
   
 }
   
 #row4 {
-  background-color: lime;
+  background-color: rgb(187, 24, 59);
 }
 
 #row5 {
-  background-color: red;
+  background-color: rgb(221, 29, 71);
  
 }
 
 #row6 {
-  background-color: blue;
+  background-color: rgb(187, 24, 59);
   
 }
   
 #row7 {
-  background-color: lime;
+  background-color: rgb(221, 29, 71);
 }
 
 #row8 {
-  background-color: red;
+  background-color: rgb(187, 24, 59);
  
 }
 
 #row9 {
-  background-color: blue;
+  background-color: rgb(221, 29, 71);
   
 }
   
 #row10 {
-  background-color: lime;
+  background-color: rgb(187, 24, 59);
 }
 
 .inside-row{
  margin-left: 170px;
+ line-height: 12pt;
 }
 
 h3{
   font-size: 13px;
+}
+
+h2 {
+  cursor:pointer;
+  color: #0645AD;
 }

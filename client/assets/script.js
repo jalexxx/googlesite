@@ -1,4 +1,35 @@
 
+document.getElementById("grid").style.visibility = "hidden"
+document.getElementById("banner").style.visibility = "hidden"
+
+
+// To make the grid and banner appear: 
+const button1 = document.getElementById('btn1');
+const gridd = document.getElementById("grid")
+const bannerr = document.getElementById
+("banner")
+const homeimage = document.getElementById("home_image")
+const homeform = document.getElementById("homeform")
+const logo = document.getElementById('logo')
+
+button1.addEventListener('click', () => {
+  gridd.style.visibility = "visible"
+  bannerr.style.visibility = "visible"
+  homeimage.style.visibility = "hidden"
+  homeform.style.visibility = "visible"
+  homeform.style.position= 'absolute';
+  homeform.style.left= "200px";
+  homeform.style.top = "50px";
+  logo.style.position = 'fixed';
+  logo.style.left = "0px"
+  logo.style.top = "0px"
+
+
+})
+
+
+
+// To make search results come up:
 
 function renderSearch(wordd){
     const title11 = wordd.title1;
@@ -103,7 +134,10 @@ function renderSearch(wordd){
     descriptionten.textContent = description1010
   }
 
-
+  function clearForm(){
+    const form = document.querySelector('form');
+    form.reset();
+}
   
   function getData(searchword){
     fetch(`http://localhost:3000/${searchword}`)
@@ -114,7 +148,7 @@ function renderSearch(wordd){
   
   function submitHandler(e) {
     e.preventDefault()
-    let searchwordd = e.target['first-search'].value 
+    let searchwordd = e.target['first-search'].value.toLowerCase()
     getData(searchwordd)
     clearForm()
   }
@@ -127,3 +161,10 @@ function renderSearch(wordd){
   
   init()
   
+
+
+
+
+
+
+
